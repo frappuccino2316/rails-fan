@@ -6,6 +6,7 @@ services:
     image: fumi00hiro/fan
     working_dir: /code
     ports:
+      - 3000:3000
       - 8000:8000
       - 8080:8080
     volumes:
